@@ -15,7 +15,23 @@ public class BasicosJuanDiego {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        cadenas();// TODO code application logic here
     }
-    
+     public static void cadenas() {
+
+        //Estos son los tipos básicos de cadenas
+        String cadena=new String();
+        char caracter;
+        
+
+        //Ejemplos de asignación de valores a las variables de cadenas
+        caracter = 'J';
+        cadena = "Juan Diego";
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        System.out.println("Tipo char");
+        System.out.println(caracter);
+        System.out.println("Clase String");
+        System.out.println(cadena);
+    }
 }
